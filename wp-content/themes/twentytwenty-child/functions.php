@@ -13,6 +13,12 @@
 function twentytwenty_child_enqueue_styles() {
   //Enqueue parent style.
   wp_enqueue_style( 'parent-style', get_template_directory_uri().'/style.css' );
+  //enqueue child theme.
+  wp_enqueue_style( 'child-style', get_stylesheet_directory_uri().'/style.css' );
+  //enqueue bootstrap css.
+  wp_enqueue_style( 'bootstrap-style', 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css' );
+
+
 }
 add_action( 'wp_enqueue_scripts', 'twentytwenty_child_enqueue_styles' );
 

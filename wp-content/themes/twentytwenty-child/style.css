@@ -7,3 +7,11 @@ Description: twenty twenty wordpress child theme.
 Template: twentytwenty
 Text Domain: twentytwenty-child
 */
+
+.news-title{
+  text-align: center;
+}
+.card-img-top{
+  height: 300px;
+  width: 300px;
+}
