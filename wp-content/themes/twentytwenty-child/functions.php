@@ -18,7 +18,6 @@ function twentytwenty_child_enqueue_styles() {
   //enqueue bootstrap css.
   wp_enqueue_style( 'bootstrap-style', 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css' );
 
-
 }
 add_action( 'wp_enqueue_scripts', 'twentytwenty_child_enqueue_styles' );
 
